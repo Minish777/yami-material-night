@@ -4,7 +4,11 @@ Midnight Discord theme in [yami](https://github.com/Trendorin/yami) palette colo
 
 ## Preview
 
-![Yami Midnight preview](assets/preview-yami-midnight.png)
+![Yami Midnight — palette](assets/preview-yami-midnight.png)
+
+![Yami Midnight — chat](assets/preview-chat.png)
+
+![Yami Midnight — settings](assets/preview-settings.png)
 
 ## Install
 
@@ -67,3 +71,33 @@ Copy your rendered `~/.config/equibop/themes/yami.theme.css` colors into
 - [Midnight](https://github.com/refact0r/midnight-discord) by refact0r — base theme, layout modules, options
 - [yami](https://github.com/Trendorin/yami) — palette generation and template system
 - Yami Midnight flavor, logo usage and guides — Minish777
+
+---
+
+## Русский перевод
+
+Midnight-тема Discord в цветах палитры [yami](https://github.com/Trendorin/yami) — тёмная, минималистичная, генерируется из обоев.
+
+### Установка
+
+В BetterDiscord / Equicord / Vencord / Equibop добавьте тему по ссылке:
+
+```
+https://raw.githubusercontent.com/Minish777/yami-midnight/master/themes/flavors/yami.theme.css
+```
+
+Тема: `themes/flavors/yami.theme.css`. Иконка личных сообщений — логотип yami (`assets/yami-logo.svg`). Модули раскладки — из оригинальной сборки [Midnight](https://github.com/refact0r/midnight-discord).
+
+### Динамическая версия (меняется с обоями)
+
+Файл темы Discord — статичный CSS, сам он не перекрасится при смене обоев. Динамическая версия живёт локально и генерируется из палитры обоев yami:
+
+1. Установите yami и включите палитру из обоев: `yami palette wallpaper` — акцент и вся палитра следуют за обоями автоматически.
+2. Добавьте шаблон клиента в `~/.config/yami/templates/equibop` (структура Midnight с плейсхолдерами палитры + строка `yami-output:`).
+3. Отрисуйте: `yami templates`, затем включите сгенерированную тему в клиенте (Equibop: Настройки → Темы). Смените обои — тема перекрасится сама.
+
+### credits
+
+- [Midnight](https://github.com/refact0r/midnight-discord) от refact0r — базовая тема, модули раскладки, опции
+- [yami](https://github.com/Trendorin/yami) — генерация палитры и система шаблонов
+- Yami Midnight flavor, использование логотипа и гайды — Minish777

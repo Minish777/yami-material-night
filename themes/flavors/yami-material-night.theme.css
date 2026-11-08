@@ -116,6 +116,47 @@ body {
     --icon-subtle: #91888e;
 }
 
+
+/* ── MD3 shape + tonal system (from Material Discord ideas, yami colors) ── */
+:root {
+    /* accent as HSL — single source, tonal steps derive from it */
+    --accent-hue: 4;
+    --accent-saturation: 42%;
+    --accent-lightness: 51%;
+    --alert-hue: 4;
+    --alert-saturation: 74%;
+    --alert-lightness: 44%;
+
+    /* MD3 shape scale */
+    --shape-corner: 6px;
+    --shape-small: 8px;
+    --shape-medium: 12px;
+    --shape-large: 18px;
+    --shape-extra-large: 24px;
+
+    /* message / media / card geometry */
+    --message-radius: 18px;
+    --message-padding-top: 8px;
+    --message-padding-side: 12px;
+    --media-radius: 10px;
+    --card-radius: 8px;
+    --card-radius-big: 18px;
+
+    /* buttons / inputs (MD3 heights) */
+    --button-height: 40px;
+    --button-padding: 16px;
+    --input-height: 40px;
+    --input-padding: 12px;
+
+    /* popouts / modals */
+    --popout-radius: 8px;
+    --popout-radius-big: 18px;
+
+    /* Material You tonal modifiers (subtle) */
+    --saturation-modifier: 0.31;
+    --lightness-modifier: 0.225;
+}
+
 /* ── yami MD3 layer (optimized: no global *, no filters, transform/opacity only) ── */
 :root {
     --yami-pixel: on;

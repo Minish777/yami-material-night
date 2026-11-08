@@ -23,6 +23,10 @@ Static snapshots — pick your palette, install by URL:
 | Yami Midnight Dracula | https://raw.githubusercontent.com/Minish777/yami-midnight/master/themes/flavors/yami-dracula.theme.css |
 | Yami Midnight OneDark | https://raw.githubusercontent.com/Minish777/yami-midnight/master/themes/flavors/yami-onedark.theme.css |
 | Yami Midnight Tokyo Night | https://raw.githubusercontent.com/Minish777/yami-midnight/master/themes/flavors/yami-tokyonight.theme.css |
+| Yami Midnight Catppuccin Latte | https://raw.githubusercontent.com/Minish777/yami-midnight/master/themes/flavors/yami-catppuccin-latte.theme.css |
+| Yami Midnight Catppuccin Frappe | https://raw.githubusercontent.com/Minish777/yami-midnight/master/themes/flavors/yami-catppuccin-frappe.theme.css |
+| Yami Midnight Catppuccin Macchiato | https://raw.githubusercontent.com/Minish777/yami-midnight/master/themes/flavors/yami-catppuccin-macchiato.theme.css |
+| Yami Midnight Catppuccin Mocha | https://raw.githubusercontent.com/Minish777/yami-midnight/master/themes/flavors/yami-catppuccin-mocha.theme.css |
 
 ## Install
 

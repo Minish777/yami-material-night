@@ -10,6 +10,20 @@ Midnight Discord theme in [yami](https://github.com/Trendorin/yami) palette colo
 
 ![Yami Midnight — settings](assets/preview-settings.png)
 
+## Variants
+
+Static snapshots — pick your palette, install by URL:
+
+| Theme | Install |
+|---|---|
+| Yami Midnight (default) | https://raw.githubusercontent.com/Minish777/yami-midnight/master/themes/flavors/yami.theme.css |
+| Yami Midnight Gruvbox | https://raw.githubusercontent.com/Minish777/yami-midnight/master/themes/flavors/yami-gruvbox.theme.css |
+| Yami Midnight Nord | https://raw.githubusercontent.com/Minish777/yami-midnight/master/themes/flavors/yami-nord.theme.css |
+| Yami Midnight Rose Pine | https://raw.githubusercontent.com/Minish777/yami-midnight/master/themes/flavors/yami-rosepine.theme.css |
+| Yami Midnight Dracula | https://raw.githubusercontent.com/Minish777/yami-midnight/master/themes/flavors/yami-dracula.theme.css |
+| Yami Midnight OneDark | https://raw.githubusercontent.com/Minish777/yami-midnight/master/themes/flavors/yami-onedark.theme.css |
+| Yami Midnight Tokyo Night | https://raw.githubusercontent.com/Minish777/yami-midnight/master/themes/flavors/yami-tokyonight.theme.css |
+
 ## Install
 
 In BetterDiscord / Equicord / Vencord / Equibop add the theme by URL:

@@ -147,17 +147,6 @@ body {
     background: var(--accent-1) !important;
 }
 
-/* MD3 state layers on interactive rows/buttons */
-[class*="button"], [class*="Button"], [class*="item"], [class*="Item"] {
-    transition: background-color 0.15s ease, transform 0.15s ease !important;
-}
-[class*="button"]:hover, [class*="Button"]:hover, [class*="item"]:hover, [class*="Item"]:hover {
-    background-color: var(--md3-state-hover) !important;
-}
-[class*="button"]:active, [class*="Button"]:active {
-    background-color: var(--md3-state-pressed) !important;
-    transform: scale(0.98) !important;
-}
 
 /* unread divider in accent */
 [class*="unread"], [class*="divider"] {

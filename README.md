@@ -73,7 +73,7 @@ https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/fl
 ```
 
 Theme: `themes/flavors/yami-material-night.theme.css`. DM icon is the yami logo (`assets/yami-logo.svg`).
-Layout modules come from the original [Midnight](https://github.com/refact0r/midnight-discord) build.
+Layout modules come from the original Midnight build.
 
 ## Dynamic version (changes with your wallpaper)
 
@@ -120,9 +120,14 @@ The dynamic version lives locally and is generated from yami's wallpaper palette
 Copy your rendered `~/.config/equibop/themes/yami.theme.css` colors into
 `themes/flavors/yami-material-night.theme.css` (keep the Midnight `@import` and options), commit, done.
 
+## Contributors
+
+- **Minish777** — author, Yami Material Night (theme, variants, previews, guides)
+- **OpenCode** — AI assistant (theme generation, yami templates, previews, docs)
+
 ## Credits
 
-- [Midnight](https://github.com/refact0r/midnight-discord) by refact0r — base theme, layout modules, options
+- Midnight by refact0r — base theme, layout modules, options
 - [yami](https://github.com/Trendorin/yami) — palette generation and template system
 - Yami Material Night flavor, logo usage and guides — Minish777
 
@@ -140,7 +145,7 @@ Midnight-тема Discord в цветах палитры [yami](https://github.c
 https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-material-night.theme.css
 ```
 
-Тема: `themes/flavors/yami-material-night.theme.css`. Иконка личных сообщений — логотип yami (`assets/yami-logo.svg`). Модули раскладки — из оригинальной сборки [Midnight](https://github.com/refact0r/midnight-discord).
+Тема: `themes/flavors/yami-material-night.theme.css`. Иконка личных сообщений — логотип yami (`assets/yami-logo.svg`). Модули раскладки — из оригинальной сборки Midnight.
 
 ### Динамическая версия (меняется с обоями)
 
@@ -152,6 +157,6 @@ https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/fl
 
 ### credits
 
-- [Midnight](https://github.com/refact0r/midnight-discord) от refact0r — базовая тема, модули раскладки, опции
+- Midnight от refact0r — базовая тема, модули раскладки, опции
 - [yami](https://github.com/Trendorin/yami) — генерация палитры и система шаблонов
 - Yami Material Night flavor, использование логотипа и гайды — Minish777

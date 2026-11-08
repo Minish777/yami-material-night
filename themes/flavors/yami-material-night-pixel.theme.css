@@ -16,7 +16,7 @@
 
 body {
     --font: 'Comfortaa', 'Nunito', sans-serif;
-    --code-font: 'Press Start 2P', monospace;
+    --code-font: 'Monocraft', 'Press Start 2P', monospace;
     font-weight: 500; /* yami: thicker than Midnight default */
 
     --gap: 12px;
@@ -162,7 +162,7 @@ input:focus, textarea:focus {
 
 /* ── pixel layer: display + code only, body stays readable ── */
 h1, h2, h3, [class*="title"], [class*="Title"], code, pre, kbd {
-    font-family: 'Press Start 2P', monospace !important;
+    font-family: 'Monocraft', 'Press Start 2P', monospace !important;
 }
 body, [class*="text"], [class*="Text"] {
     line-height: 1.65 !important;

@@ -159,3 +159,21 @@ input:focus, textarea:focus {
     border-color: var(--accent-1) !important;
     outline: none !important;
 }
+
+/* ── yami signature: kanji watermark + pixel details ── */
+[class*="chat"], [class*="Chat"] {
+    background-image: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2021%2022%22%20shape-rendering%3D%22crispEdges%22%3E%0A%3Cpath%20fill%3D%22%23ffffff%22%20d%3D%22M3%203h1v1h-1zM4%203h1v1h-1zM5%203h1v1h-1zM6%203h1v1h-1zM7%203h1v1h-1zM8%203h1v1h-1zM11%203h1v1h-1zM12%203h1v1h-1zM13%203h1v1h-1zM14%203h1v1h-1zM15%203h1v1h-1zM16%203h1v1h-1zM3%204h1v1h-1zM8%204h1v1h-1zM11%204h1v1h-1zM16%204h1v1h-1zM3%205h1v1h-1zM4%205h1v1h-1zM5%205h1v1h-1zM6%205h1v1h-1zM7%205h1v1h-1zM8%205h1v1h-1zM11%205h1v1h-1zM12%205h1v1h-1zM13%205h1v1h-1zM14%205h1v1h-1zM15%205h1v1h-1zM16%205h1v1h-1zM3%206h1v1h-1zM8%206h1v1h-1zM11%206h1v1h-1zM16%206h1v1h-1z%22%2F%3E%0A%3Cpath%20fill%3D%22%23ffffff%22%20d%3D%22M17%204h1v1h-1zM17%205h1v1h-1zM17%206h1v1h-1zM17%207h1v1h-1zM17%208h1v1h-1zM17%209h1v1h-1zM17%2010h1v1h-1zM17%2011h1v1h-1zM17%2012h1v1h-1zM17%2013h1v1h-1zM17%2014h1v1h-1zM17%2015h1v1h-1zM17%2016h1v1h-1zM17%2017h1v1h-1zM4%2018h1v1h-1zM8%2018h1v1h-1zM9%2018h1v1h-1zM10%2018h1v1h-1zM11%2018h1v1h-1zM12%2018h1v1h-1zM13%2018h1v1h-1zM15%2018h1v1h-1zM16%2018h1v1h-1zM17%2018h1v1h-1z%22%2F%3E%0A%3Cpath%20fill%3D%22%23ffffff%22%20d%3D%22M3%207h1v1h-1zM4%207h1v1h-1zM5%207h1v1h-1zM6%207h1v1h-1zM7%207h1v1h-1zM8%207h1v1h-1zM11%207h1v1h-1zM12%207h1v1h-1zM13%207h1v1h-1zM14%207h1v1h-1zM15%207h1v1h-1zM16%207h1v1h-1zM3%208h1v1h-1zM9%208h1v1h-1zM16%208h1v1h-1zM3%209h1v1h-1zM6%209h1v1h-1zM7%209h1v1h-1zM8%209h1v1h-1zM9%209h1v1h-1zM10%209h1v1h-1zM11%209h1v1h-1zM12%209h1v1h-1zM13%209h1v1h-1zM16%209h1v1h-1zM3%2010h1v1h-1zM8%2010h1v1h-1zM11%2010h1v1h-1zM16%2010h1v1h-1z%22%2F%3E%0A%3Cpath%20fill%3D%22%23ffffff%22%20d%3D%22M3%2011h1v1h-1zM5%2011h1v1h-1zM6%2011h1v1h-1zM7%2011h1v1h-1zM8%2011h1v1h-1zM9%2011h1v1h-1zM10%2011h1v1h-1zM11%2011h1v1h-1zM12%2011h1v1h-1zM13%2011h1v1h-1zM14%2011h1v1h-1zM16%2011h1v1h-1zM3%2012h1v1h-1zM16%2012h1v1h-1zM3%2013h1v1h-1zM7%2013h1v1h-1zM8%2013h1v1h-1zM9%2013h1v1h-1zM10%2013h1v1h-1zM11%2013h1v1h-1zM12%2013h1v1h-1zM16%2013h1v1h-1zM3%2014h1v1h-1zM7%2014h1v1h-1zM12%2014h1v1h-1zM16%2014h1v1h-1z%22%2F%3E%0A%3Cpath%20fill%3D%22%23ffffff%22%20d%3D%22M3%2015h1v1h-1zM7%2015h1v1h-1zM8%2015h1v1h-1zM9%2015h1v1h-1zM10%2015h1v1h-1zM11%2015h1v1h-1zM12%2015h1v1h-1zM16%2015h1v1h-1zM3%2016h1v1h-1zM7%2016h1v1h-1zM12%2016h1v1h-1zM16%2016h1v1h-1zM3%2017h1v1h-1zM7%2017h1v1h-1zM8%2017h1v1h-1zM9%2017h1v1h-1zM10%2017h1v1h-1zM11%2017h1v1h-1zM12%2017h1v1h-1zM14%2017h1v1h-1zM15%2017h1v1h-1zM16%2017h1v1h-1z%22%2F%3E%0A%3C%2Fsvg%3E') !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: 180px !important;
+    background-blend-mode: overlay !important;
+}
+/* pixel corners on cards */
+[class*="card"], [class*="Card"], [class*="panel"], [class*="Panel"] {
+    border-radius: 6px !important;
+}
+/* accent kanji divider for new messages */
+[class*="unread"], [class*="divider"] {
+    border-color: var(--accent-1) !important;
+    border-top-width: 2px !important;
+}

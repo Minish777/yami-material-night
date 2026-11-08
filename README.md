@@ -29,6 +29,16 @@ Static snapshots — pick your palette, install by URL:
 | Yami Material Night Catppuccin Macchiato | https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-catppuccin-macchiato.theme.css |
 | Yami Material Night Catppuccin Mocha | https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-catppuccin-mocha.theme.css |
 
+## Previews
+
+![Yami Material Night](assets/previews/yami-material-night.png)
+
+![Gruvbox](assets/previews/yami-gruvbox.png) ![Gruvbox Dark](assets/previews/yami-gruvbox-dark.png)
+
+![Nord](assets/previews/yami-nord.png) ![Rose Pine](assets/previews/yami-rosepine.png)
+
+![Dracula](assets/previews/yami-dracula.png) ![OneDark](assets/previews/yami-onedark.png) ![Tokyo Night](assets/previews/yami-tokyonight.png)
+
 ## Install
 
 In BetterDiscord / Equicord / Vencord / Equibop add the theme by URL:

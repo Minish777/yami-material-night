@@ -2,6 +2,10 @@
 
 Midnight Discord theme in [yami](https://github.com/Trendorin/yami) palette colors — dark, minimal, generated from your wallpaper.
 
+## Preview
+
+![Yami Midnight preview](assets/preview-yami-midnight.png)
+
 ## Install
 
 In BetterDiscord / Equicord / Vencord / Equibop add the theme by URL:

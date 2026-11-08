@@ -1,14 +1,14 @@
-# Yami Midnight
+# Yami Material Night
 
 Midnight Discord theme in [yami](https://github.com/Trendorin/yami) palette colors — dark, minimal, generated from your wallpaper.
 
 ## Preview
 
-![Yami Midnight — palette](assets/preview-yami-midnight.png)
+![Yami Material Night — palette](assets/preview-yami-midnight.png)
 
-![Yami Midnight — chat](assets/preview-chat.png)
+![Yami Material Night — chat](assets/preview-chat.png)
 
-![Yami Midnight — settings](assets/preview-settings.png)
+![Yami Material Night — settings](assets/preview-settings.png)
 
 ## Variants
 
@@ -16,27 +16,27 @@ Static snapshots — pick your palette, install by URL:
 
 | Theme | Install |
 |---|---|
-| Yami Midnight (default) | https://raw.githubusercontent.com/Minish777/yami-midnight/master/themes/flavors/yami.theme.css |
-| Yami Midnight Gruvbox | https://raw.githubusercontent.com/Minish777/yami-midnight/master/themes/flavors/yami-gruvbox.theme.css |
-| Yami Midnight Nord | https://raw.githubusercontent.com/Minish777/yami-midnight/master/themes/flavors/yami-nord.theme.css |
-| Yami Midnight Rose Pine | https://raw.githubusercontent.com/Minish777/yami-midnight/master/themes/flavors/yami-rosepine.theme.css |
-| Yami Midnight Dracula | https://raw.githubusercontent.com/Minish777/yami-midnight/master/themes/flavors/yami-dracula.theme.css |
-| Yami Midnight OneDark | https://raw.githubusercontent.com/Minish777/yami-midnight/master/themes/flavors/yami-onedark.theme.css |
-| Yami Midnight Tokyo Night | https://raw.githubusercontent.com/Minish777/yami-midnight/master/themes/flavors/yami-tokyonight.theme.css |
-| Yami Midnight Catppuccin Latte | https://raw.githubusercontent.com/Minish777/yami-midnight/master/themes/flavors/yami-catppuccin-latte.theme.css |
-| Yami Midnight Catppuccin Frappe | https://raw.githubusercontent.com/Minish777/yami-midnight/master/themes/flavors/yami-catppuccin-frappe.theme.css |
-| Yami Midnight Catppuccin Macchiato | https://raw.githubusercontent.com/Minish777/yami-midnight/master/themes/flavors/yami-catppuccin-macchiato.theme.css |
-| Yami Midnight Catppuccin Mocha | https://raw.githubusercontent.com/Minish777/yami-midnight/master/themes/flavors/yami-catppuccin-mocha.theme.css |
+| Yami Material Night (default) | https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-material-night.theme.css |
+| Yami Material Night Gruvbox | https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-gruvbox.theme.css |
+| Yami Material Night Nord | https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-nord.theme.css |
+| Yami Material Night Rose Pine | https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-rosepine.theme.css |
+| Yami Material Night Dracula | https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-dracula.theme.css |
+| Yami Material Night OneDark | https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-onedark.theme.css |
+| Yami Material Night Tokyo Night | https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-tokyonight.theme.css |
+| Yami Material Night Catppuccin Latte | https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-catppuccin-latte.theme.css |
+| Yami Material Night Catppuccin Frappe | https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-catppuccin-frappe.theme.css |
+| Yami Material Night Catppuccin Macchiato | https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-catppuccin-macchiato.theme.css |
+| Yami Material Night Catppuccin Mocha | https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-catppuccin-mocha.theme.css |
 
 ## Install
 
 In BetterDiscord / Equicord / Vencord / Equibop add the theme by URL:
 
 ```
-https://raw.githubusercontent.com/Minish777/yami-midnight/master/themes/flavors/yami.theme.css
+https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-material-night.theme.css
 ```
 
-Theme: `themes/flavors/yami.theme.css`. DM icon is the yami logo (`assets/yami-logo.svg`).
+Theme: `themes/flavors/yami-material-night.theme.css`. DM icon is the yami logo (`assets/yami-logo.svg`).
 Layout modules come from the original [Midnight](https://github.com/refact0r/midnight-discord) build.
 
 ## Dynamic version (changes with your wallpaper)
@@ -82,13 +82,13 @@ The dynamic version lives locally and is generated from yami's wallpaper palette
 ## Regenerating this snapshot
 
 Copy your rendered `~/.config/equibop/themes/yami.theme.css` colors into
-`themes/flavors/yami.theme.css` (keep the Midnight `@import` and options), commit, done.
+`themes/flavors/yami-material-night.theme.css` (keep the Midnight `@import` and options), commit, done.
 
 ## Credits
 
 - [Midnight](https://github.com/refact0r/midnight-discord) by refact0r — base theme, layout modules, options
 - [yami](https://github.com/Trendorin/yami) — palette generation and template system
-- Yami Midnight flavor, logo usage and guides — Minish777
+- Yami Material Night flavor, logo usage and guides — Minish777
 
 ---
 
@@ -101,10 +101,10 @@ Midnight-тема Discord в цветах палитры [yami](https://github.c
 В BetterDiscord / Equicord / Vencord / Equibop добавьте тему по ссылке:
 
 ```
-https://raw.githubusercontent.com/Minish777/yami-midnight/master/themes/flavors/yami.theme.css
+https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-material-night.theme.css
 ```
 
-Тема: `themes/flavors/yami.theme.css`. Иконка личных сообщений — логотип yami (`assets/yami-logo.svg`). Модули раскладки — из оригинальной сборки [Midnight](https://github.com/refact0r/midnight-discord).
+Тема: `themes/flavors/yami-material-night.theme.css`. Иконка личных сообщений — логотип yami (`assets/yami-logo.svg`). Модули раскладки — из оригинальной сборки [Midnight](https://github.com/refact0r/midnight-discord).
 
 ### Динамическая версия (меняется с обоями)
 
@@ -118,4 +118,4 @@ https://raw.githubusercontent.com/Minish777/yami-midnight/master/themes/flavors/
 
 - [Midnight](https://github.com/refact0r/midnight-discord) от refact0r — базовая тема, модули раскладки, опции
 - [yami](https://github.com/Trendorin/yami) — генерация палитры и система шаблонов
-- Yami Midnight flavor, использование логотипа и гайды — Minish777
+- Yami Material Night flavor, использование логотипа и гайды — Minish777

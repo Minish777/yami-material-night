@@ -15,24 +15,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Nunito:wght@400;600;800&family=JetBrains+Mono:wght@400;700&display=swap');
 
 /* ── RadialStatus: round status ring around avatars (yami colors) ── */
-@import url('https://discordstyles.github.io/RadialStatus/RadialStatus.css');
-:root {
-    --rs-small-spacing: 2px;
-    --rs-medium-spacing: 3px;
-    --rs-large-spacing: 4px;
-    --rs-small-width: 2px;
-    --rs-medium-width: 3px;
-    --rs-large-width: 4px;
-    --rs-avatar-shape: 50%;
-    --rs-online-color: #70ac77;
-    --rs-idle-color: #c09950;
-    --rs-dnd-color: #d0352d;
-    --rs-offline-color: #91888e;
-    --rs-streaming-color: #b35750;
-    --rs-invisible-color: #91888e;
-    --rs-self-speaking-color: #b35750;
-    --rs-phone-color: #70ac77;
-}
 
 
 body {

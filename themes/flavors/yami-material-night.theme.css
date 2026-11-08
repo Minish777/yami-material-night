@@ -11,6 +11,7 @@
  */
 
 /* modules: layout, top bar, dms, chatbar, transparency — upstream Midnight */
+@import url('https://refact0r.github.io/midnight-discord/build/midnight.css');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Nunito:wght@400;600;800&family=JetBrains+Mono:wght@400;700&display=swap');
 
 /* ── RadialStatus: round status ring around avatars (yami colors) ── */
@@ -33,7 +34,6 @@
     --rs-phone-color: #70ac77;
 }
 
-@import url('https://refact0r.github.io/midnight-discord/build/midnight.css');
 
 body {
     --font: 'Comfortaa', 'Nunito', sans-serif;

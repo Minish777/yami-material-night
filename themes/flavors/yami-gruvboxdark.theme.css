@@ -1,0 +1,161 @@
+/**
+ * @name Yami Material Night Gruvbox Dark
+ * @description Midnight layout in yami palette colors, pixel touches, DM icon = yami logo.
+ * @author Minish777 (yami) / refact0r (Midnight base)
+ * @version 2.2.0
+ * @invite nz87hXyvcy
+ * @website https://github.com/Minish777/yami-material-night
+ * @source https://github.com/Minish777/yami-material-night/blob/master/themes/flavors/yami.theme.css
+ * @authorId 508863359777505290
+ * @authorLink https://www.refact0r.dev
+ */
+
+/* modules: layout, top bar, dms, chatbar, transparency — upstream Midnight */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Nunito:wght@400;600;800&family=JetBrains+Mono:wght@400;700&display=swap');
+@import url('https://refact0r.github.io/midnight-discord/build/midnight.css');
+
+body {
+    --font: 'Comfortaa', 'Nunito', sans-serif;
+    --code-font: 'JetBrains Mono', monospace;
+    font-weight: 500; /* yami: thicker than Midnight default */
+
+    --gap: 12px;
+    --divider-thickness: 4px;
+    --border-thickness: 1px;
+
+    --animations: on;
+    --list-item-transition: 0.2s ease;
+    --dms-icon-svg-transition: 0.4s ease;
+    --border-hover-transition: 0.2s ease;
+
+    --top-bar-height: var(--gap);
+    --top-bar-button-position: titlebar;
+    --top-bar-title-position: off;
+    --subtle-top-bar-title: off;
+
+    --custom-window-controls: on;
+    --window-control-size: 14px;
+
+    --custom-dms-icon: custom;
+    --dms-icon-svg-url: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2021%2022%22%20shape-rendering%3D%22crispEdges%22%3E%0A%3Cpath%20fill%3D%22%23ffffff%22%20d%3D%22M3%203h1v1h-1zM4%203h1v1h-1zM5%203h1v1h-1zM6%203h1v1h-1zM7%203h1v1h-1zM8%203h1v1h-1zM11%203h1v1h-1zM12%203h1v1h-1zM13%203h1v1h-1zM14%203h1v1h-1zM15%203h1v1h-1zM16%203h1v1h-1zM3%204h1v1h-1zM8%204h1v1h-1zM11%204h1v1h-1zM16%204h1v1h-1zM3%205h1v1h-1zM4%205h1v1h-1zM5%205h1v1h-1zM6%205h1v1h-1zM7%205h1v1h-1zM8%205h1v1h-1zM11%205h1v1h-1zM12%205h1v1h-1zM13%205h1v1h-1zM14%205h1v1h-1zM15%205h1v1h-1zM16%205h1v1h-1zM3%206h1v1h-1zM8%206h1v1h-1zM11%206h1v1h-1zM16%206h1v1h-1z%22%2F%3E%0A%3Cpath%20fill%3D%22%23ffffff%22%20d%3D%22M17%204h1v1h-1zM17%205h1v1h-1zM17%206h1v1h-1zM17%207h1v1h-1zM17%208h1v1h-1zM17%209h1v1h-1zM17%2010h1v1h-1zM17%2011h1v1h-1zM17%2012h1v1h-1zM17%2013h1v1h-1zM17%2014h1v1h-1zM17%2015h1v1h-1zM17%2016h1v1h-1zM17%2017h1v1h-1zM4%2018h1v1h-1zM8%2018h1v1h-1zM9%2018h1v1h-1zM10%2018h1v1h-1zM11%2018h1v1h-1zM12%2018h1v1h-1zM13%2018h1v1h-1zM15%2018h1v1h-1zM16%2018h1v1h-1zM17%2018h1v1h-1z%22%2F%3E%0A%3Cpath%20fill%3D%22%23ffffff%22%20d%3D%22M3%207h1v1h-1zM4%207h1v1h-1zM5%207h1v1h-1zM6%207h1v1h-1zM7%207h1v1h-1zM8%207h1v1h-1zM11%207h1v1h-1zM12%207h1v1h-1zM13%207h1v1h-1zM14%207h1v1h-1zM15%207h1v1h-1zM16%207h1v1h-1zM3%208h1v1h-1zM9%208h1v1h-1zM16%208h1v1h-1zM3%209h1v1h-1zM6%209h1v1h-1zM7%209h1v1h-1zM8%209h1v1h-1zM9%209h1v1h-1zM10%209h1v1h-1zM11%209h1v1h-1zM12%209h1v1h-1zM13%209h1v1h-1zM16%209h1v1h-1zM3%2010h1v1h-1zM8%2010h1v1h-1zM11%2010h1v1h-1zM16%2010h1v1h-1z%22%2F%3E%0A%3Cpath%20fill%3D%22%23ffffff%22%20d%3D%22M3%2011h1v1h-1zM5%2011h1v1h-1zM6%2011h1v1h-1zM7%2011h1v1h-1zM8%2011h1v1h-1zM9%2011h1v1h-1zM10%2011h1v1h-1zM11%2011h1v1h-1zM12%2011h1v1h-1zM13%2011h1v1h-1zM14%2011h1v1h-1zM16%2011h1v1h-1zM3%2012h1v1h-1zM16%2012h1v1h-1zM3%2013h1v1h-1zM7%2013h1v1h-1zM8%2013h1v1h-1zM9%2013h1v1h-1zM10%2013h1v1h-1zM11%2013h1v1h-1zM12%2013h1v1h-1zM16%2013h1v1h-1zM3%2014h1v1h-1zM7%2014h1v1h-1zM12%2014h1v1h-1zM16%2014h1v1h-1z%22%2F%3E%0A%3Cpath%20fill%3D%22%23ffffff%22%20d%3D%22M3%2015h1v1h-1zM7%2015h1v1h-1zM8%2015h1v1h-1zM9%2015h1v1h-1zM10%2015h1v1h-1zM11%2015h1v1h-1zM12%2015h1v1h-1zM16%2015h1v1h-1zM3%2016h1v1h-1zM7%2016h1v1h-1zM12%2016h1v1h-1zM16%2016h1v1h-1zM3%2017h1v1h-1zM7%2017h1v1h-1zM8%2017h1v1h-1zM9%2017h1v1h-1zM10%2017h1v1h-1zM11%2017h1v1h-1zM12%2017h1v1h-1zM14%2017h1v1h-1zM15%2017h1v1h-1zM16%2017h1v1h-1z%22%2F%3E%0A%3C%2Fsvg%3E');
+    --dms-icon-svg-size: 90%;
+    --dms-icon-color-before: var(--icon-subtle);
+    --dms-icon-color-after: var(--white);
+    --custom-dms-background: off;
+    --dms-background-image-url: url('');
+    --dms-background-image-size: cover;
+    --dms-background-color: linear-gradient(70deg, var(--accent-2), var(--accent-1), var(--accent-3));
+
+    --background-image: off;
+    --background-image-url: url('');
+
+    --transparency-tweaks: off;
+    --remove-bg-layer: off;
+    --panel-blur: off;
+    --blur-amount: 12px;
+    --bg-floating: var(--bg-3);
+
+    --custom-chatbar: off;
+    --chatbar-height: 47px;
+
+    --small-user-panel: on;
+}
+
+/* yami palette (from wallpaper) */
+:root {
+    --colors: on;
+
+    --text-0: var(--bg-4);
+    --text-1: #ebdbb2;
+    --text-2: #ebdbb2;
+    --text-3: #d5c4a1;
+    --text-4: #6f686d;
+    --text-5: #474247;
+
+    --bg-1: #3c3836;
+    --bg-2: #282828;
+    --bg-3: #3c3836;
+    --bg-4: #1d2021;
+    --hover: #b3575026;
+    --active: #b3575033;
+    --active-2: #0b0a0d;
+    --message-hover: #ffffff0d;
+
+    --accent-1: #fabd2f;
+    --accent-2: #b58900;
+    --accent-3: #ffe680;
+    --accent-4: #ffe680;
+    --accent-5: #fabd2f;
+    --accent-new: #703632;
+
+    --mention: linear-gradient(to right, color-mix(in hsl, #703632, transparent 90%) 40%, transparent);
+    --mention-hover: linear-gradient(to right, color-mix(in hsl, #703632, transparent 95%) 40%, transparent);
+    --reply: linear-gradient(to right, color-mix(in hsl, #91888e, transparent 90%) 40%, transparent);
+    --reply-hover: linear-gradient(to right, color-mix(in hsl, #91888e, transparent 95%) 40%, transparent);
+
+    --online: #70ac77;
+    --dnd: #d0352d;
+    --idle: #c09950;
+    --streaming: #8c5fa3;
+    --offline: #6f686d;
+
+    --border-light: var(--hover);
+    --border: var(--active);
+    --border-hover: var(--active);
+    --button-border: #ffffff1a;
+
+    --red-1: #ff8a80; --red-2: #ff6f61; --red-3: #ee5a50; --red-4: #d0352d; --red-5: #a82a22;
+    --green-1: #a5c986; --green-2: #70ac77; --green-3: #5d9c66; --green-4: #4c8557; --green-5: #3d6b48;
+    --yellow-1: #f0c46a; --yellow-2: #c09950; --yellow-3: #a37f3f; --yellow-4: #856631; --yellow-5: #6b5127;
+    --blue-1: #86a6c8; --blue-2: #587eaa; --blue-3: #46688f; --blue-4: #374f73; --blue-5: #2a3c5c;
+    --purple-1: #c486c8; --purple-2: #8c5fa3; --purple-3: #744d86; --purple-4: #5c3d6b; --purple-5: #472f54;
+
+    --white: #e3e0e2;
+    --black: #0b0a0d;
+    --grey-1: #91888e; --grey-2: #6f686d; --grey-3: #474247;
+    --icon-subtle: #91888e;
+}
+
+/* ── yami MD3 layer (optimized: no global *, no filters, transform/opacity only) ── */
+:root {
+    --yami-pixel: on;
+    --md3-state-hover: color-mix(in srgb, var(--accent-1) 8%, transparent);
+    --md3-state-pressed: color-mix(in srgb, var(--accent-1) 16%, transparent);
+}
+
+::selection {
+    background: var(--accent-1) !important;
+    color: #ffffff !important;
+}
+
+::-webkit-scrollbar {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--accent-2) !important;
+    border-radius: 4px !important;
+    border: none !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-1) !important;
+}
+
+
+/* unread divider in accent */
+[class*="unread"], [class*="divider"] {
+    border-color: var(--accent-1) !important;
+}
+
+
+/* input focus ring in accent */
+input:focus, textarea:focus {
+    border-color: var(--accent-1) !important;
+    outline: none !important;
+}

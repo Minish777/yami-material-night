@@ -150,3 +150,20 @@ body {
     --purple-4: oklch(60% 0.11 310);
     --purple-5: oklch(55% 0.11 310);
 }
+
+/* ═══ Yami custom touches ═══ */
+:root {
+    --yami-pixel: on;
+}
+::selection {
+    background: var(--accent-1) !important;
+    color: #ffffff !important;
+}
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--accent-2) transparent !important;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--accent-2) !important;
+    border-radius: 0 !important;
+}

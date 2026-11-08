@@ -1,5 +1,11 @@
 # Yami Material Night
 
+![version](https://img.shields.io/badge/version-2.2.0-b35750?style=flat-square)
+![license](https://img.shields.io/badge/license-MIT-4e78b3?style=flat-square)
+![themes](https://img.shields.io/badge/themes-12_variants-703632?style=flat-square)
+![dynamic](https://img.shields.io/badge/dynamic-wallpaper_palette-70ac77?style=flat-square)
+![platform](https://img.shields.io/badge/platform-BetterDiscord%20%7C%20Equicord%20%7C%20Vencord%20%7C%20Equibop-91888e?style=flat-square)
+
 Midnight Discord theme in [yami](https://github.com/Trendorin/yami) palette colors — dark, minimal, generated from your wallpaper.
 
 ## Preview

@@ -11,6 +11,7 @@
  */
 
 /* modules: layout, top bar, dms, chatbar, transparency — upstream Midnight */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&family=JetBrains+Mono:wght@400;700&display=swap');
 @import url('https://refact0r.github.io/midnight-discord/build/midnight.css');
 
 body {
@@ -115,19 +116,16 @@ body {
     --icon-subtle: #91888e;
 }
 
-/* ── yami own layer (not from Midnight) ── */
+/* ── yami MD3 layer (optimized: no global *, no filters, transform/opacity only) ── */
 :root {
     --yami-pixel: on;
+    --md3-state-hover: color-mix(in srgb, var(--accent-1) 8%, transparent);
+    --md3-state-pressed: color-mix(in srgb, var(--accent-1) 16%, transparent);
 }
 
 ::selection {
     background: var(--accent-1) !important;
     color: #ffffff !important;
-}
-
-* {
-    scrollbar-width: thin;
-    scrollbar-color: var(--accent-2) transparent !important;
 }
 
 ::-webkit-scrollbar {
@@ -141,7 +139,7 @@ body {
 
 ::-webkit-scrollbar-thumb {
     background: var(--accent-2) !important;
-    border-radius: 0 !important;
+    border-radius: 4px !important;
     border: none !important;
 }
 
@@ -149,9 +147,16 @@ body {
     background: var(--accent-1) !important;
 }
 
-/* pixel-crisp edges on panels */
-[class*="panel"], [class*="card"], [class*="container"] {
-    image-rendering: crispEdges;
+/* MD3 state layers on interactive rows/buttons */
+[class*="button"], [class*="Button"], [class*="item"], [class*="Item"] {
+    transition: background-color 0.15s ease, transform 0.15s ease !important;
+}
+[class*="button"]:hover, [class*="Button"]:hover, [class*="item"]:hover, [class*="Item"]:hover {
+    background-color: var(--md3-state-hover) !important;
+}
+[class*="button"]:active, [class*="Button"]:active {
+    background-color: var(--md3-state-pressed) !important;
+    transform: scale(0.98) !important;
 }
 
 /* unread divider in accent */

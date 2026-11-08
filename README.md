@@ -23,7 +23,6 @@ Static snapshots — pick your palette, install by URL:
 | Yami Material Night Dracula | https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-dracula.theme.css |
 | Yami Material Night OneDark | https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-onedark.theme.css |
 | Yami Material Night Tokyo Night | https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-tokyonight.theme.css |
-| Yami Material Night Pixel | https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-material-night-pixel.theme.css |
 | Yami Material Night Monochrome | https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-material-night-monochrome.theme.css |
 | Yami Material Night Catppuccin Latte | https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-catppuccin-latte.theme.css |
 | Yami Material Night Catppuccin Frappe | https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-catppuccin-frappe.theme.css |

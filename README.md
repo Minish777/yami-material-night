@@ -14,30 +14,49 @@ Midnight Discord theme in [yami](https://github.com/Trendorin/yami) palette colo
 
 Static snapshots — pick your palette, install by URL:
 
-| Theme | Install |
-|---|---|
-| Yami Material Night (default) | https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-material-night.theme.css |
-| Yami Material Night Gruvbox | https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-gruvbox.theme.css |
-| Yami Material Night Nord | https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-nord.theme.css |
-| Yami Material Night Rose Pine | https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-rosepine.theme.css |
-| Yami Material Night Dracula | https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-dracula.theme.css |
-| Yami Material Night OneDark | https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-onedark.theme.css |
-| Yami Material Night Tokyo Night | https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-tokyonight.theme.css |
-| Yami Material Night Monochrome | https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-material-night-monochrome.theme.css |
-| Yami Material Night Catppuccin Latte | https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-catppuccin-latte.theme.css |
-| Yami Material Night Catppuccin Frappe | https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-catppuccin-frappe.theme.css |
-| Yami Material Night Catppuccin Macchiato | https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-catppuccin-macchiato.theme.css |
-| Yami Material Night Catppuccin Mocha | https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-catppuccin-mocha.theme.css |
-
-## Previews
-
+### Yami Material Night
+Install: https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-material-night.theme.css
 ![Yami Material Night](assets/previews/yami-material-night.png)
 
-![Gruvbox](assets/previews/yami-gruvbox.png) ![Gruvbox Dark](assets/previews/yami-gruvbox-dark.png)
+### Yami Material Night Gruvbox
+Install: https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-gruvbox.theme.css
+![Gruvbox](assets/previews/yami-gruvbox.png)
 
-![Nord](assets/previews/yami-nord.png) ![Rose Pine](assets/previews/yami-rosepine.png)
+### Yami Material Night Gruvbox Dark
+Install: https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-gruvboxdark.theme.css
+![Gruvbox Dark](assets/previews/yami-gruvbox-dark.png)
 
-![Dracula](assets/previews/yami-dracula.png) ![OneDark](assets/previews/yami-onedark.png) ![Tokyo Night](assets/previews/yami-tokyonight.png)
+### Yami Material Night Nord
+Install: https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-nord.theme.css
+![Nord](assets/previews/yami-nord.png)
+
+### Yami Material Night Rose Pine
+Install: https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-rosepine.theme.css
+![Rose Pine](assets/previews/yami-rosepine.png)
+
+### Yami Material Night Dracula
+Install: https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-dracula.theme.css
+![Dracula](assets/previews/yami-dracula.png)
+
+### Yami Material Night OneDark
+Install: https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-onedark.theme.css
+![OneDark](assets/previews/yami-onedark.png)
+
+### Yami Material Night Tokyo Night
+Install: https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-tokyonight.theme.css
+![Tokyo Night](assets/previews/yami-tokyonight.png)
+
+### Yami Material Night Catppuccin Latte
+Install: https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-catppuccin-latte.theme.css
+
+### Yami Material Night Catppuccin Frappe
+Install: https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-catppuccin-frappe.theme.css
+
+### Yami Material Night Catppuccin Macchiato
+Install: https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-catppuccin-macchiato.theme.css
+
+### Yami Material Night Catppuccin Mocha
+Install: https://raw.githubusercontent.com/Minish777/yami-material-night/master/themes/flavors/yami-catppuccin-mocha.theme.css
 
 ## Install
 

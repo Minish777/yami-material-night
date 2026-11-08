@@ -15,7 +15,7 @@
 @import url('https://refact0r.github.io/midnight-discord/build/midnight.css');
 
 body {
-    --font: 'Press Start 2P', 'Nunito', sans-serif;
+    --font: 'Comfortaa', 'Nunito', sans-serif;
     --code-font: 'Press Start 2P', monospace;
     font-weight: 500; /* yami: thicker than Midnight default */
 
@@ -158,4 +158,12 @@ body {
 input:focus, textarea:focus {
     border-color: var(--accent-1) !important;
     outline: none !important;
+}
+
+/* ── pixel layer: display + code only, body stays readable ── */
+h1, h2, h3, [class*="title"], [class*="Title"], code, pre, kbd {
+    font-family: 'Press Start 2P', monospace !important;
+}
+body, [class*="text"], [class*="Text"] {
+    line-height: 1.65 !important;
 }
